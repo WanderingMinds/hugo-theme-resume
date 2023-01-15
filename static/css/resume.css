@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Plus Jakarta Display',sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,23 +17,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Plus Jakarta Display',sans-serif;
   font-weight: 700;
-  color: #343a40;
-}
-
-
-h1, h2{
-  text-transform: uppercase;
+  color: #0f142a;
 }
 
 h1 {
   font-size: 6rem;
-  line-height: 5.5rem;
 }
 
 h2 {
   font-size: 3.5rem;
+  line-height: 10rem;
 }
 
 .subheading {
@@ -44,11 +39,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #0f142a;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #316bff;
 }
 
 .list-social-icons a .fa-lg {
@@ -60,7 +55,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #316bff;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -81,7 +76,7 @@ h2 {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    margin-bottom: auto;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -135,17 +130,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #0f142a !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #316bff !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #316bff;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #316bff;
 }

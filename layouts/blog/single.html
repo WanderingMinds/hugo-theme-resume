@@ -2,6 +2,11 @@
 {{ partial "breadcrumbs" . }}
 <section class="resume-section p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto">
+	{{ with .Resources.GetMatch "cover.*" }}
+		{{ with .Fill "300x200 webp" }}
+		<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+		{{ end }}
+	{{ end }}
   	<div class="mb-3 d-flex flex-row justify-content-between">
     	<h2 class="mb-0"><span class="text-primary">{{ .Title }}</span></h2>
     	<span class="">{{ .Date.Format "January 2, 2006" }}</span>
